@@ -29,3 +29,26 @@ Development Steps:
 Testing and Validation:
 
 Used Postman to send a GET request to http://localhost:3000 and verified the response was "Hello, World!". Additionally, ensured the server correctly handles non-root routes by returning 404 status codes.
+
+Task 2: RESTful API Endpoint /patients
+Objective
+
+To implement an API endpoint that returns a predefined list of patient data in JSON format, demonstrating understanding of REST principles.
+Development Steps
+
+    1. Data Preparation: Created a mock dataset of patients to simulate fetching data from a database.
+    2. Endpoint Creation: Added a new route /patients to return the patient data as JSON.
+Testing and Validation
+
+Performed thorough testing with Postman by accessing the endpoint http://localhost:3000/patients and validated the JSON structure and HTTP status codes.
+Challenges Encountered and Solutions
+
+    1. Challenge: Ensuring API scalability for future enhancements.
+        Solution: Designed the code structure and routes with modularity and scalability in mind, allowing for easy addition of new endpoints and modification of existing ones.
+
+    2. Challenge: Maintaining code readability and simplicity.
+        Solution: Adopted clear naming conventions, modular design, and extensive commenting to enhance code readability and maintainability.
+
+Conclusion
+
+The completion of these tasks demonstrated proficiency in setting up a Node.js environment, creating a basic server with Express.js, and developing RESTful API endpoints. The process underscored the importance of clear planning, effective problem-solving, and adherence to best practices in software development. This exercise provided valuable insights into the practical application of Node.js and Express.js in backend development, particularly in the context of a telemedicine industry focus.
